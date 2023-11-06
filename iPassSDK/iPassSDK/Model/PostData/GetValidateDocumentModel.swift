@@ -1,6 +1,4 @@
 //  GetValidateDocumentModel.swift
-//  iPassSDK1
-//  Created by CS on 18/04/23.
 
 import Foundation
 

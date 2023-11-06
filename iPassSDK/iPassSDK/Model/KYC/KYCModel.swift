@@ -1,14 +1,6 @@
-//
 //  KYCModel.swift
-//  DemoipAa
-//
-//  Created by Mobile on 02/03/23.
-//
-
-
 
 import Foundation
-
 
 //Optional("{\"status\":true,\"message\":\"Fail\",\"error\":{\"bdy\":{\"type\":\"about:blank\",\"title\":\"Bad Request: wrong value for the accountId\",\"status\":\"400\",\"detail\":\"[]\",\"instance\":\"/api/v1/accounts/e25d34f0-98af-4e41-a09c-4a2131409953000\"}},\"data\":{}}")
 

@@ -1,6 +1,4 @@
 //  KYCInitateModel.swift
-//  iPassSDK1
-//  Created by CS on 23/03/23.
 
 import Foundation
 

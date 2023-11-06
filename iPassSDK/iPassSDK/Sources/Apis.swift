@@ -1,6 +1,4 @@
 //  Apis.swift
-//  iPassSDK1
-//  Created by Mobile on 08/02/23.
 
 import UIKit
 import Alamofire
@@ -42,9 +40,9 @@ open class Apis: NSObject {
         let headers: HTTPHeaders = ["Content-Type": "application/json","Accept": "application/json","Authorization":apiAuthorizationToken]
         
         ApiStore.shared.baseRequestApi(baseUrl, .post,params,headers.dictionary) { (result: AccountTokenModel?) in
-            if result?.message == "Fail"{
+            if result?.message == "Fail" {
                 completion(nil,result?.error)
-            }else if result?.message == "Success." {
+            }else if result?.message == "Success" {
                 completion(result, nil)
             }
         }

@@ -1,6 +1,4 @@
 //  WebServices.swift
-//  Lumakin
-//  Created by Mobile on 20/02/23.
 
 import Foundation
 import Alamofire

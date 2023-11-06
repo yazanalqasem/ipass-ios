@@ -1,6 +1,4 @@
 //  ApiStore.swift
-//  MyOutdoorAgent
-//  Created by CS on 22/08/22.
 
 import UIKit
 import Alamofire
@@ -9,7 +7,6 @@ class ApiStore : NSObject {
     
     // MARK: - Shared Instance
     static let shared = ApiStore()
-    
     
     // MARK: - Base Request API
     open func baseRequestApi<T: Codable>(_ url: URLConvertible, _ method : HTTPMethod, _ params: [String: Any]? = nil, _ headers: [String: String]? = nil, completion: @escaping (_ response : T?) -> Void){
