@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75F1D02C2AF91CE5002331E5 /* iPassSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F1D02B2AF91CE5002331E5 /* iPassSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75F1D0342AF91D35002331E5 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0332AF91D35002331E5 /* Apis.swift */; };
+		75F1D0392AF91D45002331E5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0362AF91D45002331E5 /* Reachability.swift */; };
+		75F1D03A2AF91D45002331E5 /* ApiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0372AF91D45002331E5 /* ApiStore.swift */; };
+		75F1D03B2AF91D45002331E5 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0382AF91D45002331E5 /* WebServices.swift */; };
+		75F1D0592AF91D55002331E5 /* KYCPUTPrepareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D03E2AF91D55002331E5 /* KYCPUTPrepareData.swift */; };
+		75F1D05A2AF91D55002331E5 /* KYCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D03F2AF91D55002331E5 /* KYCModel.swift */; };
+		75F1D05B2AF91D55002331E5 /* ErrorBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0402AF91D55002331E5 /* ErrorBase.swift */; };
+		75F1D05C2AF91D55002331E5 /* KYCPrePareDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0412AF91D55002331E5 /* KYCPrePareDataModel.swift */; };
+		75F1D05D2AF91D55002331E5 /* KYCUserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0422AF91D55002331E5 /* KYCUserDetailModel.swift */; };
+		75F1D05E2AF91D55002331E5 /* KYCInitateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0432AF91D55002331E5 /* KYCInitateModel.swift */; };
+		75F1D05F2AF91D55002331E5 /* KYCWorkflowStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0442AF91D55002331E5 /* KYCWorkflowStatusModel.swift */; };
+		75F1D0602AF91D55002331E5 /* SMEmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0462AF91D55002331E5 /* SMEmailModel.swift */; };
+		75F1D0612AF91D55002331E5 /* SMPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0472AF91D55002331E5 /* SMPhoneModel.swift */; };
+		75F1D0622AF91D55002331E5 /* FrontImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0492AF91D55002331E5 /* FrontImageData.swift */; };
+		75F1D0632AF91D55002331E5 /* UserStatusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04A2AF91D55002331E5 /* UserStatusError.swift */; };
+		75F1D0642AF91D55002331E5 /* JWTToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04B2AF91D55002331E5 /* JWTToken.swift */; };
+		75F1D0652AF91D55002331E5 /* UserDetailError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04C2AF91D55002331E5 /* UserDetailError.swift */; };
+		75F1D0662AF91D55002331E5 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04D2AF91D55002331E5 /* UserDetailModel.swift */; };
+		75F1D0672AF91D55002331E5 /* WorkFlowStatrusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04E2AF91D55002331E5 /* WorkFlowStatrusModel.swift */; };
+		75F1D0682AF91D55002331E5 /* DeleteAccountDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D04F2AF91D55002331E5 /* DeleteAccountDataModel.swift */; };
+		75F1D0692AF91D55002331E5 /* AccountTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0502AF91D55002331E5 /* AccountTokenModel.swift */; };
+		75F1D06A2AF91D55002331E5 /* PostIDCardFrontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0522AF91D55002331E5 /* PostIDCardFrontModel.swift */; };
+		75F1D06B2AF91D55002331E5 /* PassPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0532AF91D55002331E5 /* PassPostModel.swift */; };
+		75F1D06C2AF91D55002331E5 /* GetScreeningDocumentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0542AF91D55002331E5 /* GetScreeningDocumentDataModel.swift */; };
+		75F1D06D2AF91D55002331E5 /* GetValidateDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0552AF91D55002331E5 /* GetValidateDocumentModel.swift */; };
+		75F1D06E2AF91D55002331E5 /* DrivingPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0562AF91D55002331E5 /* DrivingPostModel.swift */; };
+		75F1D06F2AF91D55002331E5 /* DocumentErrorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0572AF91D55002331E5 /* DocumentErrorCase.swift */; };
+		75F1D0702AF91D55002331E5 /* HandwrittenDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D0582AF91D55002331E5 /* HandwrittenDocumentModel.swift */; };
+		7F14ACDA8937762DF7E03069 /* Pods_iPassSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0251CC10A7DE2ECBAD1BA8FC /* Pods_iPassSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0251CC10A7DE2ECBAD1BA8FC /* Pods_iPassSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPassSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FA182A2E88D420E9A0B1C3 /* Pods-iPassSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPassSDK.debug.xcconfig"; path = "Target Support Files/Pods-iPassSDK/Pods-iPassSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		75F1D0282AF91CE5002331E5 /* iPassSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPassSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F1D02B2AF91CE5002331E5 /* iPassSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPassSDK.h; sourceTree = "<group>"; };
+		75F1D0332AF91D35002331E5 /* Apis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		75F1D0362AF91D45002331E5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		75F1D0372AF91D45002331E5 /* ApiStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiStore.swift; sourceTree = "<group>"; };
+		75F1D0382AF91D45002331E5 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		75F1D03E2AF91D55002331E5 /* KYCPUTPrepareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCPUTPrepareData.swift; sourceTree = "<group>"; };
+		75F1D03F2AF91D55002331E5 /* KYCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCModel.swift; sourceTree = "<group>"; };
+		75F1D0402AF91D55002331E5 /* ErrorBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBase.swift; sourceTree = "<group>"; };
+		75F1D0412AF91D55002331E5 /* KYCPrePareDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCPrePareDataModel.swift; sourceTree = "<group>"; };
+		75F1D0422AF91D55002331E5 /* KYCUserDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCUserDetailModel.swift; sourceTree = "<group>"; };
+		75F1D0432AF91D55002331E5 /* KYCInitateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCInitateModel.swift; sourceTree = "<group>"; };
+		75F1D0442AF91D55002331E5 /* KYCWorkflowStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCWorkflowStatusModel.swift; sourceTree = "<group>"; };
+		75F1D0462AF91D55002331E5 /* SMEmailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMEmailModel.swift; sourceTree = "<group>"; };
+		75F1D0472AF91D55002331E5 /* SMPhoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMPhoneModel.swift; sourceTree = "<group>"; };
+		75F1D0492AF91D55002331E5 /* FrontImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontImageData.swift; sourceTree = "<group>"; };
+		75F1D04A2AF91D55002331E5 /* UserStatusError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatusError.swift; sourceTree = "<group>"; };
+		75F1D04B2AF91D55002331E5 /* JWTToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTToken.swift; sourceTree = "<group>"; };
+		75F1D04C2AF91D55002331E5 /* UserDetailError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailError.swift; sourceTree = "<group>"; };
+		75F1D04D2AF91D55002331E5 /* UserDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		75F1D04E2AF91D55002331E5 /* WorkFlowStatrusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkFlowStatrusModel.swift; sourceTree = "<group>"; };
+		75F1D04F2AF91D55002331E5 /* DeleteAccountDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteAccountDataModel.swift; sourceTree = "<group>"; };
+		75F1D0502AF91D55002331E5 /* AccountTokenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTokenModel.swift; sourceTree = "<group>"; };
+		75F1D0522AF91D55002331E5 /* PostIDCardFrontModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostIDCardFrontModel.swift; sourceTree = "<group>"; };
+		75F1D0532AF91D55002331E5 /* PassPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassPostModel.swift; sourceTree = "<group>"; };
+		75F1D0542AF91D55002331E5 /* GetScreeningDocumentDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetScreeningDocumentDataModel.swift; sourceTree = "<group>"; };
+		75F1D0552AF91D55002331E5 /* GetValidateDocumentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetValidateDocumentModel.swift; sourceTree = "<group>"; };
+		75F1D0562AF91D55002331E5 /* DrivingPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingPostModel.swift; sourceTree = "<group>"; };
+		75F1D0572AF91D55002331E5 /* DocumentErrorCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentErrorCase.swift; sourceTree = "<group>"; };
+		75F1D0582AF91D55002331E5 /* HandwrittenDocumentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandwrittenDocumentModel.swift; sourceTree = "<group>"; };
+		9D47D286CD6C08AEFD794C1C /* Pods-iPassSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPassSDK.release.xcconfig"; path = "Target Support Files/Pods-iPassSDK/Pods-iPassSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F1D0252AF91CE5002331E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14ACDA8937762DF7E03069 /* Pods_iPassSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517711973C595AC757E89527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51FA182A2E88D420E9A0B1C3 /* Pods-iPassSDK.debug.xcconfig */,
+				9D47D286CD6C08AEFD794C1C /* Pods-iPassSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75F1D01E2AF91CE5002331E5 = {
+			isa = PBXGroup;
+			children = (
+				75F1D02A2AF91CE5002331E5 /* iPassSDK */,
+				75F1D0292AF91CE5002331E5 /* Products */,
+				517711973C595AC757E89527 /* Pods */,
+				DE184E8A43D21898691B4F4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75F1D0292AF91CE5002331E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0282AF91CE5002331E5 /* iPassSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F1D02A2AF91CE5002331E5 /* iPassSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D03C2AF91D55002331E5 /* Model */,
+				75F1D0352AF91D45002331E5 /* APIManager */,
+				75F1D0322AF91D35002331E5 /* Sources */,
+				75F1D02B2AF91CE5002331E5 /* iPassSDK.h */,
+			);
+			path = iPassSDK;
+			sourceTree = "<group>";
+		};
+		75F1D0322AF91D35002331E5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0332AF91D35002331E5 /* Apis.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		75F1D0352AF91D45002331E5 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0362AF91D45002331E5 /* Reachability.swift */,
+				75F1D0372AF91D45002331E5 /* ApiStore.swift */,
+				75F1D0382AF91D45002331E5 /* WebServices.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		75F1D03C2AF91D55002331E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D03D2AF91D55002331E5 /* KYC */,
+				75F1D0452AF91D55002331E5 /* SocialMedia */,
+				75F1D0482AF91D55002331E5 /* iPass */,
+				75F1D0512AF91D55002331E5 /* PostData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75F1D03D2AF91D55002331E5 /* KYC */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D03E2AF91D55002331E5 /* KYCPUTPrepareData.swift */,
+				75F1D03F2AF91D55002331E5 /* KYCModel.swift */,
+				75F1D0402AF91D55002331E5 /* ErrorBase.swift */,
+				75F1D0412AF91D55002331E5 /* KYCPrePareDataModel.swift */,
+				75F1D0422AF91D55002331E5 /* KYCUserDetailModel.swift */,
+				75F1D0432AF91D55002331E5 /* KYCInitateModel.swift */,
+				75F1D0442AF91D55002331E5 /* KYCWorkflowStatusModel.swift */,
+			);
+			path = KYC;
+			sourceTree = "<group>";
+		};
+		75F1D0452AF91D55002331E5 /* SocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0462AF91D55002331E5 /* SMEmailModel.swift */,
+				75F1D0472AF91D55002331E5 /* SMPhoneModel.swift */,
+			);
+			path = SocialMedia;
+			sourceTree = "<group>";
+		};
+		75F1D0482AF91D55002331E5 /* iPass */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0492AF91D55002331E5 /* FrontImageData.swift */,
+				75F1D04A2AF91D55002331E5 /* UserStatusError.swift */,
+				75F1D04B2AF91D55002331E5 /* JWTToken.swift */,
+				75F1D04C2AF91D55002331E5 /* UserDetailError.swift */,
+				75F1D04D2AF91D55002331E5 /* UserDetailModel.swift */,
+				75F1D04E2AF91D55002331E5 /* WorkFlowStatrusModel.swift */,
+				75F1D04F2AF91D55002331E5 /* DeleteAccountDataModel.swift */,
+				75F1D0502AF91D55002331E5 /* AccountTokenModel.swift */,
+			);
+			path = iPass;
+			sourceTree = "<group>";
+		};
+		75F1D0512AF91D55002331E5 /* PostData */ = {
+			isa = PBXGroup;
+			children = (
+				75F1D0522AF91D55002331E5 /* PostIDCardFrontModel.swift */,
+				75F1D0532AF91D55002331E5 /* PassPostModel.swift */,
+				75F1D0542AF91D55002331E5 /* GetScreeningDocumentDataModel.swift */,
+				75F1D0552AF91D55002331E5 /* GetValidateDocumentModel.swift */,
+				75F1D0562AF91D55002331E5 /* DrivingPostModel.swift */,
+				75F1D0572AF91D55002331E5 /* DocumentErrorCase.swift */,
+				75F1D0582AF91D55002331E5 /* HandwrittenDocumentModel.swift */,
+			);
+			path = PostData;
+			sourceTree = "<group>";
+		};
+		DE184E8A43D21898691B4F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0251CC10A7DE2ECBAD1BA8FC /* Pods_iPassSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75F1D0232AF91CE5002331E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F1D02C2AF91CE5002331E5 /* iPassSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75F1D0272AF91CE5002331E5 /* iPassSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F1D02F2AF91CE5002331E5 /* Build configuration list for PBXNativeTarget "iPassSDK" */;
+			buildPhases = (
+				E8410D2AC4FC8376BBC5C21D /* [CP] Check Pods Manifest.lock */,
+				75F1D0232AF91CE5002331E5 /* Headers */,
+				75F1D0242AF91CE5002331E5 /* Sources */,
+				75F1D0252AF91CE5002331E5 /* Frameworks */,
+				75F1D0262AF91CE5002331E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPassSDK;
+			productName = iPassSDK;
+			productReference = 75F1D0282AF91CE5002331E5 /* iPassSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F1D01F2AF91CE5002331E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					75F1D0272AF91CE5002331E5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 75F1D0222AF91CE5002331E5 /* Build configuration list for PBXProject "iPassSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75F1D01E2AF91CE5002331E5;
+			productRefGroup = 75F1D0292AF91CE5002331E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F1D0272AF91CE5002331E5 /* iPassSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F1D0262AF91CE5002331E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E8410D2AC4FC8376BBC5C21D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPassSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F1D0242AF91CE5002331E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F1D05F2AF91D55002331E5 /* KYCWorkflowStatusModel.swift in Sources */,
+				75F1D0702AF91D55002331E5 /* HandwrittenDocumentModel.swift in Sources */,
+				75F1D0622AF91D55002331E5 /* FrontImageData.swift in Sources */,
+				75F1D0392AF91D45002331E5 /* Reachability.swift in Sources */,
+				75F1D06D2AF91D55002331E5 /* GetValidateDocumentModel.swift in Sources */,
+				75F1D05B2AF91D55002331E5 /* ErrorBase.swift in Sources */,
+				75F1D05E2AF91D55002331E5 /* KYCInitateModel.swift in Sources */,
+				75F1D0342AF91D35002331E5 /* Apis.swift in Sources */,
+				75F1D06F2AF91D55002331E5 /* DocumentErrorCase.swift in Sources */,
+				75F1D06C2AF91D55002331E5 /* GetScreeningDocumentDataModel.swift in Sources */,
+				75F1D0652AF91D55002331E5 /* UserDetailError.swift in Sources */,
+				75F1D0692AF91D55002331E5 /* AccountTokenModel.swift in Sources */,
+				75F1D0662AF91D55002331E5 /* UserDetailModel.swift in Sources */,
+				75F1D0592AF91D55002331E5 /* KYCPUTPrepareData.swift in Sources */,
+				75F1D0672AF91D55002331E5 /* WorkFlowStatrusModel.swift in Sources */,
+				75F1D0682AF91D55002331E5 /* DeleteAccountDataModel.swift in Sources */,
+				75F1D0612AF91D55002331E5 /* SMPhoneModel.swift in Sources */,
+				75F1D05A2AF91D55002331E5 /* KYCModel.swift in Sources */,
+				75F1D06A2AF91D55002331E5 /* PostIDCardFrontModel.swift in Sources */,
+				75F1D05C2AF91D55002331E5 /* KYCPrePareDataModel.swift in Sources */,
+				75F1D03B2AF91D45002331E5 /* WebServices.swift in Sources */,
+				75F1D03A2AF91D45002331E5 /* ApiStore.swift in Sources */,
+				75F1D06B2AF91D55002331E5 /* PassPostModel.swift in Sources */,
+				75F1D0632AF91D55002331E5 /* UserStatusError.swift in Sources */,
+				75F1D0602AF91D55002331E5 /* SMEmailModel.swift in Sources */,
+				75F1D06E2AF91D55002331E5 /* DrivingPostModel.swift in Sources */,
+				75F1D05D2AF91D55002331E5 /* KYCUserDetailModel.swift in Sources */,
+				75F1D0642AF91D55002331E5 /* JWTToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75F1D02D2AF91CE5002331E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75F1D02E2AF91CE5002331E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75F1D0302AF91CE5002331E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FA182A2E88D420E9A0B1C3 /* Pods-iPassSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.iPassSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75F1D0312AF91CE5002331E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D47D286CD6C08AEFD794C1C /* Pods-iPassSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.iPassSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F1D0222AF91CE5002331E5 /* Build configuration list for PBXProject "iPassSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F1D02D2AF91CE5002331E5 /* Debug */,
+				75F1D02E2AF91CE5002331E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F1D02F2AF91CE5002331E5 /* Build configuration list for PBXNativeTarget "iPassSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F1D0302AF91CE5002331E5 /* Debug */,
+				75F1D0312AF91CE5002331E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F1D01F2AF91CE5002331E5 /* Project object */;
+}
