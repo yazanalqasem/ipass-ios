@@ -35,7 +35,7 @@ open class Apis: NSObject {
     open func callApiMethodUpdateValues(_ accessToken: String, _ apiAuthorizationToken:String, completion: @escaping(_ : AccountTokenModel? , ErrorBase?) -> Void) {
         let baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.token.rawValue +  accessToken
         
-        let params = ["customerInternalReference": "1","workflowDefinition": ["key": 10032,"capabilities":["watchlistScreening":["additionalProperties": "string"]]],"callbackUrl": "https://www.google.com","userReference": "YOUR_USER_REFERENCE","tokenLifetime": "5m","web":["successUrl": "https://ipassreact.csdevhub.com/success","errorUrl": "https://ipassreact.csdevhub.com/error","locale": "en"]] as [String : Any]
+        let params = ["customerInternalReference": "1","workflowDefinition": ["key": "10015","capabilities":["watchlistScreening":["additionalProperties": "string"]]],"callbackUrl": "https://www.google.com","userReference": "YOUR_USER_REFERENCE","tokenLifetime": "5m","web":["successUrl": "https://ipassreact.csdevhub.com/success","errorUrl": "https://ipassreact.csdevhub.com/error","locale": "en"]] as [String : Any]
         
         let headers: HTTPHeaders = ["Content-Type": "application/json","Accept": "application/json","Authorization":apiAuthorizationToken]
         
