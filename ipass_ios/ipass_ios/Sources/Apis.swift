@@ -70,8 +70,8 @@ open class Apis: NSObject {
     }
     
     // MARK: - 4. User Details
-    open func getUserDetail (accessToken:String, apiAuthorizationToken:String, accountId:String, sessionId :String, email :String, workflowExecutionId:String, completion:@escaping (_ : UserDetailModel?, _ :  UserDetailError?)-> Void){
-        let baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.detailUser.rawValue +  accessToken + "&accountId=\(accountId)" +  "&workflowExecutionId=\(workflowExecutionId)" +  "&sessionId=\(sessionId)" +  "&email=\(email)"
+    open func getUserDetail (accessToken:String, apiAuthorizationToken:String, accountId:String, email :String, workflowExecutionId:String, completion:@escaping (_ : UserDetailModel?, _ :  UserDetailError?)-> Void){
+        let baseUrl = BaseUrl.baseUrl.rawValue + VersionEndpoint.userEndpoint.rawValue + Endpoints.detailUser.rawValue +  accessToken + "&accountId=\(accountId)" +  "&workflowExecutionId=\(workflowExecutionId)" +  "&email=\(email)"
         let headers: HTTPHeaders = ["Content-Type": "application/json","Accept": "application/json","Authorization":apiAuthorizationToken]
         ApiStore.shared.baseRequestApi(baseUrl, .get,nil,headers.dictionary) { (result: UserDetailModel? ) in
             if result?.message == "Fail"{
